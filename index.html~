@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,7 +20,7 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
+-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -38,50 +37,88 @@
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <!--<li class="sidebar-brand">
-                <a href="#top"  onclick = $("#menu-close").click(); >Start Bootstrap</a>
-            </li> -->
-            <li>
-                <strong><a href="#top" onclick = $("#menu-close").click(); >Home</a></strong>
+            <li class="sidebar-brand">
+                <a href="#top"  onclick = $("#menu-close").click(); >Links</a>
             </li>
             <li>
-                <strong><a href="#about" onclick = $("#menu-close").click(); >About</a></strong>
+                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
             </li>
             <li>
-                <strong><a href="#services" onclick = $("#menu-close").click(); >Résumé</a></strong>
+                <a href="#about" onclick = $("#menu-close").click(); >About</a>
+            </li>
+            
+            <li>
+                <a href="#portfolio" onclick = $("#menu-close").click(); >Experience</a>
             </li>
             <li>
-                <strong><a href="#contact" onclick = $("#menu-close").click(); >Contact</a></strong>
+                <a href="#contact" onclick = $("#menu-close").click(); >Portfolio</a>
+            </li>
+	     <li>
+                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
             </li>
         </ul>
     </nav>
 
     <!-- Header -->
-     <header id="top" class="header">
+    
+    <header id="top" class="header">
         <div class="text-vertical-center">
-          <h1 class="name" ><strong>Tanmay Mehrotra</strong></h1>
-            <h4 class="name" ><strong>IT Professional | User Experience Designer |  </strong></h4>
+            <h1>Tanmay Mehrotra</h1>
+            <h3>| IT Professional | User Experience Designer |</h3>
             <br>
-            <a href="#about" class="btn btn-lg"><img src="img/downarrow.png" " alt="logo"></a>
+	   
+	    
+	 <a href="#about" class="btn btn-lg"><img src="img/downarrow.jpg" " alt="logo"></a>
 
+
+    
         </div>
     </header>
 
     <!-- About -->
-   <section id="about" class="about">
+    <section id="about" class="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                     <h1><strong><center>ABOUT</center></strong></h1>
-                     <hr class="small">
-                  &nbsp;  
-                    <div><center><img class="img-circle img-responsive" align="center" src="img/profile.png" alt="logo"></center> </div>
-                      &nbsp;           
-                   
-                    <h3><center>Proven student leader at The Florida State University currently focusing on the Information Technology (IT) industry and pursuing a minor in Business.<br>Extensive skills in data analysis, customer interfacing, team leadership, and networking.<br> Currently an intern at the largest security company in North America, ADT.<br> Graduating in the Spring of 2016 and will be starting my career in July.</center></h3>  
-                    &nbsp;
-                    <hr class="large">
-                      </div>
+                    <h2>ABOUT ME</h2>
+     <hr class="small">
+                    <div class="row">
+
+		    &nbsp;  
+                    <div><center><img class="img-circle img-responsive" align="center" src="img/profile.jpg" alt="logo"></center> </div>
+                      &nbsp;     
+                    <p class="lead">Proven student leader at The Florida State University currently focusing on the Information Technology (IT) industry and pursuing a minor in Business. Extensive skills in data analysis, customer interfacing, team leadership, and networking. Currently an intern at the largest security company in North America, ADT. Graduating in April 2016, and begin working with TCS in Los Angeles, California in June 2016. 
+
+<br><br>
+<a href="TanmayMehrotraresume.pdf" class="btn btn-dark btn-lg">Resume</a>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>EDUCATION</h2>
+     <hr class="small">
+                    <div class="row">
+                 
+
+                              
+          <center><img class="img-responsive" href""  src="img/fsulogo.jpg" alt="FSU"></center></a> &nbsp;          
+                <h4><center><strong>Florida State University</strong></center></h4>
+                <center><i><p style="font-size:15px">Bachelor of Science Degree in Information Technology</center></i></p>
+                <center><p style="font-size:15px">(January 2013 - May 2016)</center></p> <br><br><br><br>
+
+
+                            </div>
+                        </div>
+                    </div>
                     <!-- /.row (nested) -->
                 </div>
                 <!-- /.col-lg-10 -->
@@ -90,106 +127,116 @@
         </div>
         <!-- /.container -->
     </section>
-                    
 
-    <section id="services" class="services bg-primary">
-                    <div class="container">
-                    <br><br> <br> <br>   
-                    
-                    
-                                <h1><strong><center>EDUCATION</center></strong></h1>
-             <hr class="small">       <br><br>     
-                         
+    <!-- Experience -->
+
+        <div class="container">
+ <div class="col-lg-10 col-lg-offset-1 text-center">
+            <h2>EXPERIENCE</h2>
+        </div>
+   
+
+<div class="col-md-6">
             <br>
-          <center><img class="img-responsive" href""  src="img/fsulogo.png" alt="FSU"></center></a> &nbsp;          
-                <h4><center><strong>Florida State University</strong></center></h4>
-                <center><i><p style="font-size:15px">Bachelor of Science Degree in Information Technology</center></i></p>
-                <center><p style="font-size:15px">(January 2013 - May 2016)</center></p> <br><br><br><br>
-            
-    <h1><strong><center>EXPERIENCE</center></strong></h1>
-                    <hr class="small">
-                    <br><br>
-            <div class="col-md-6">
-            <br>
-          <center><a href="https://www.planted.com" target="_blank"><img class="img-responsive img-rounded" href""  src="img/planted.png" alt="Planted" width="300" height="300"></center></a> &nbsp;          
+          <center><a href="https://www.planted.com" target="_blank"><img class="img-responsive img-rounded" href""  src="img/planted.jpg" alt="Planted" width="175" height="175"></center></a> &nbsp;          
                 <h4><center><strong>Campus Ambassador</strong></center></h4>
                 <center><p style="font-size:15px">(Septermber 2015 - Present)</center></p>
-                <center><p style="font-size:14px"><p></p> Planted helps recent grads find non-technical jobs at high growth startups.
-
-We’re building a talent marketplace that puts the individuality back into job hiring and searching. We believe that finding the right match takes more than just an interview (it’s kind of like dating) which is why Planted provides a trial period where companies and candidates can get to know each other better before a long-term commitment.</p></center>  <br>
+                <center><p style="font-size:14px"><p></p>
             </div>
               
               <div class="col-md-6">
               <br>
-                <center><a href="http://www.adt.com" target="_blank"><img class="img-responsive img-rounded" src="img/adtpulselogo.png" alt="ADT" width="175" height="175"></center></a> &nbsp;
+                <center><a href="http://www.adt.com" target="_blank"><img class="img-responsive img-rounded" src="img/adtpulselogo.jpg" alt="ADT" width="175" height="175"></center></a> &nbsp;
                 <h4><center><strong>Pulse Engineer Intern</strong></center></h4>
                 <center><p style="font-size:15px">(June 2015 - August 2015)</center></p>
-                <center><p style="font-size:14px">
-
-<br>✘ Worked alongside Pulse Success Team to help improve the uptime of ADT Pulse, reducing technical debt, capacity planning, and scaling the application to support tremendous customer growth
-<br>✘ Utilized Python scripting for activation scripts and collect monitoring data to feed to the Graphite software
-<br>✘ Assisted in building a Customer Premise Equipment lab in Aurora, Colorado which contained all types of Pulse panels
-<br>✘ Pulled data directly through IBM’s Tivoli portal and exported it through that interface</p></center>  <br>       
+                <center><p style="font-size:14px"><p></p>
             </div>                    
            
 
-  <div class="col-md-6">
-              <br>
-                <center><a href="http://www.properchannel.co" target="_blank"><img class="img-responsive img-rounded" src="img/PC.png" alt="Proper Channel" width="175" height="175"></center></a> &nbsp;
+  <div class="col-md-6"
+<br>
+                <center><a href="http://www.properchannel.co" target="_blank"><img class="img-responsive img-rounded" src="img/PC.jpg" alt="Proper Channel" width="175" height="175"></center></a> &nbsp;
                 <h4><center><strong>Proper Channel</strong></center></h4>
                 <center><p style="font-size:15px">(February 2015 - May 2015)</center></p>
-                <center><p style="font-size:14px"><br>✘ Created flowcharts, blog posts, articles, newsletters, communications materials, and material for social media channels
-<br>✘ Grew the company’s presence through blogs, Twitter, Facebook, search engines, and other strategically relevant online properties
-<br>✘ Managed incoming media requests and build relationships with industry journalists; creating, executing and measuring media campaigns
-<br>✘ Used Google Analytics and other measurement tools to provide reports on metrics, and continually find ways to improve on those metrics through testing and new initiatives</p></center> &nbsp;      
+                <center><p style="font-size:14px"><p></p>
                 </div>
-                            <br><br><br> &nbsp; 
+                            
 
  <div class="col-md-6">
               <br>
-                <center><a href="http://www.adt.com" target="_blank"><img class="img-responsive img-rounded" src="img/adtlogo.png" alt="ADT" width="175" height="175"></center></a> &nbsp;
+                <center><a href="http://www.adt.com" target="_blank"><img class="img-responsive img-rounded" src="img/adtlogo.jpg" alt="ADT" width="175" height="175"></center></a> &nbsp;
                 <h4><center><strong>Business Analyst for IT Operations</strong></center></h4>
                 <center><p style="font-size:15px">(June 2014 - August 2014)</center></p>
-                <center><p style="font-size:14px"><br>✘ Provided IT Operations insight to Senior Project Manager and Senior IT Director 
-<br>✘ Directed Remedy ticketing service to Compass Self Help Portal due to Xerox migration
-<br>✘ Tested the efficiency of Virtual Desktop Infrastructure by Citrix Xen App use
-<br>✘ Analyzed and documented current state business processes and assisted with capturing the to-be business processes
-<br>✘ Served as a liaison between the Business and IT to provide technical and business support to meet user needs 
-<br>✘ Analyzed the Outage Reports per fiscal month by calculating SLA (Service Level Agreement)
-<br>✘ Efficiently used Microsoft Visio, Excel, Sharepoint, etc.</p></center>  <br>       
+                <center><p style="font-size:14px"><p></p>      
             </div>                    
 
 &nbsp;
             <div class="row">
             &nbsp;
 
-                <center><a href="http://studyedge.com/fsu/" target="_blank"><img class="img-responsive img-rounded" src="img/StudyEdge.png" alt="" width="175" height="175"></center></a> &nbsp;
+                <center><a href="http://studyedge.com/fsu/" target="_blank"><img class="img-responsive img-rounded" src="img/StudyEdge.jpg" alt="" width="175" height="175"></center></a> &nbsp;
                 <h4><center><strong>Academic Intern</strong></center></h4>
                 <center><p style="font-size:15px">(August 2013 - Jan 2014)</center></p>
-                <center><p style="font-size:14px"><br>✘ Provided all relevant information about courses to Study Edge staff every week
-<br>✘ Helped spread the word about Study Edge to peers through social media
-<br>✘ Attended weekly meetings with Director of Campus Marketing and Outreach to discuss resources, goals, execution, and new ideas</p></center> &nbsp;      
+                <center><p style="font-size:14px"><p></p>    
                 </div>
                             <br><br><br> &nbsp; 
 
 
-    <div class="row">
-&nbsp;
-         <h1><strong><center>PORTFOLIO</center></strong><h1>
-        <hr class="small">
-                 <br>
-                
-               
 
+
+
+
+    <!-- PORTFOLIO -->
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                
+ <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>PORTFOLIO</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="https://www.dropbox.com/s/x01oc1xhh3y88o6/Interactive_Planner.mov?dl=0">
+                                    <img class="img-portfolio img-responsive" src="img/InteractiveAcademicPlanner.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="">
+                                    <img class="img-portfolio img-responsive" src="img/DatabaseDesign.jpg">
+                                </a>
+                            </div>
+                        </div>
+
+<div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="">
+                                    <img class="img-portfolio img-responsive" src="img/ssh.jpg">
+                                </a>
+                            </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </aside>
+
+  
 
     <!-- Footer -->
+
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h4><strong>Tanmay Mehrotra</strong>
                     </h4>
-                    <p>8594 Via Giardino<br>Boca Raton, FL 33433</p>
                     <ul class="list-unstyled">
                         <li><i class="fa fa-phone fa-fw"></i> (561) 870-5326</li>
                         <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:tanmehrotra@gmail.com">tanmehrotra@gmail.com</a>
@@ -198,11 +245,11 @@ We’re building a talent marketplace that puts the individuality back into job 
                     <br>
                     <ul class="list-inline">
                         <li>
-                            <a href="https://www.linkedin.com/in/tmehrotra" target="_blank"T><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                            <a href="https://www.linkedin.com/in/tmehrotra"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
                         </li>
                     </ul>
                     <hr class="small">
-                    <p class="text-muted">Tanmay Mehrotra &copy; 2016</p>
+                    <p class="text-muted">Tanmay Mehrotra  &copy; 2016</p>
                 </div>
             </div>
         </div>
